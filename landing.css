@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1716277521543-7ff44dc651a6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  overflow-x: hidden;
+}
+
+body {
+  font-family: sans-serif;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+#navg {
+  width: 100%;
+  background-color: #00000000;
+  color: #f8f3f3;
+  padding: 1em;
+
+  text-align: center;
+  display: flex;
+  border-bottom: 2px red solid;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#login-icon {
+  border: 2px #f30606 solid;
+  padding: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #f30606;
+  color: white;
+}
+
+#login-icon:hover {
+  color: black;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px black solid;
+}
+
+#icon {
+
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #f30606;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: #f30606;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px black solid;
+  color: black;
+}
+
+.abt {
+  height: 600px;
+  width: 1000px;
+  margin: 10px auto;
+  margin-top: 90px;
+  padding: 20px;
+  background-image: url('https://images.unsplash.com/photo-1716277521543-7ff44dc651a6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.abt h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.text {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.con {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.con a {
+  color: #333;
+  text-decoration: none;
+}
+
+.con a:hover {
+  color: #666;
+  text-decoration: none;
+}
+
+.con svg {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.con {
+  font-style: bold;
+
+}
+
+
+#side {
+  position: absolute;
+  height: 100%;
+  width: 480px;
+  background-color: #0d4291;
+  backdrop-filter: burl(20px);
+  top: 0%;
+  left: 100vw;
+
+  padding: 30px;
+
+}
+
+#x {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  top: 20px;
+  right: 60px;
+}
+
+#log {
+
+  display: block;
+  padding-top: 20px;
+}
+
+#log li {
+  font-family: sans-serif;
+  padding: 10px;
+  color: white;
+}
+
+#acc {
+  font-size: 25px;
+  color: #0d4291;
+  margin-left: 120px;
+}
+
+ul #google {
+  margin-top: 20px;
+  padding-left: 70px;
+  margin-left: 100px;
+  background-color: white;
+  font-family: "Roboto-Regular", arial, sans-serif;
+  font-weight: 400;
+  height: 60px;
+  width: 250px;
+  align-content: center;
+  color: #0d4291;
+  font-weight: 700;
+  border-radius: 7px;
+}
+
+#google:hover {
+  background-color: rgba(255, 255, 255, 0.41);
+  color: #ffffff;
+
+  .fa-google {
+    color: #0022ff;
+  }
+}
+
+.fa-google {
+  position: absolute;
+  left: 163px;
+  top: 130px;
+  font-size: larger;
+  color: rgb(0, 0, 0);
+}
+
+#email {
+  text-transform: uppercase;
+  font-size: 19px;
+  margin-left: 120px;
+  margin-top: 36px;
+  color: #0d4291;
+}
+
+#fname,
+#lname,
+#email {
+  margin-left: 50px;
+}
+
+#fnameinput,
+#lnameinput,
+#mail {
+  font-size: 16px;
+  font-family: cursive;
+  height: 37px;
+  width: 306px;
+  margin-left: 50px;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(255, 255, 255);
+}
+
+#submit {
+  margin-left: 50px;
+  margin-top: 30px;
+  height: 45px;
+  border-radius: 8px;
+  font-size: 20px;
+  width: 310px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+#submit:hover {
+  font-size: 22px;
+  color: black;
+  background-color: rgb(226, 227, 229);
+
+}
+
+#submit:active {
+  background-color: #8ba8d4;
+  color: white;
+}
